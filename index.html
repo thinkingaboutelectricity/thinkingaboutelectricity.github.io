@@ -15,39 +15,14 @@
 <body class="bp one-col">
 <div id="fb-root"></div>
 
-<div id="wrapper">
 
-<script type="text/javascript">
-//<![CDATA[
-$(document).ready(function(){
-  $('#rev').click(function(e){
-    e.preventDefault();
-    $.ajax({ 
-       type: "GET", 
-       url: $(this).attr('href'), 
-       dataType: 'script',
-       cache: false, 
-       success: function(message) {
-       },
-       error: function(message, ajaxOptions, thrownError) {
-         $.achtung({message: "Error resending your email verification.", 
-                    timeout:5, 
-                    icon: 'ui-icon-alert',
-                    className: 'achtungFail'});
-       }
-    });
-  });
-});
 
-//]]>
-</script>
 
 
 <div id="content">
 
 <h1>Hello, welcome to a little thing called <strong>750 Words</strong></h1>
 
-  <h2><span style="background-color: #ffc; padding: 5px;">Join <strong>308,900 other writers</strong> by <a href="/auth/signup">signing up now &rarr;</a></span></h2>
 
 
 <h2>&#9733; What is this site about?</h2>
